@@ -1,3 +1,14 @@
+## 相关包导入
+```
+go get github.com/PuerkitoBio/goquery
+
+#由于golang.org墙问题，使用git clone方法
+mkdir -p $GOPATH/src/golang.org/x
+cd $GOPATH/src/golang.org/x
+git clone https://github.com/golang/net.git
+go install net
+```
+
 ## 运行结果
 ```
 2019/04/09 18:48:17 第 1 个帖子的标题： GCTT：Go语言中文网公众号 与 Go项目实战知识星球 ， 期待与你相见！
